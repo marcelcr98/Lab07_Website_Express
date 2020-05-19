@@ -17,7 +17,7 @@ router.post('/login', function(req, res){
   }
 });
 
-/* Para salir del Login */
+/* Para salir del Login*/
 
 router.get('/logout',function(req,res){
   res.redirect('/');
